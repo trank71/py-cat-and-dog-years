@@ -1,5 +1,5 @@
 def get_human_age(cat_age: int, dog_age: int) -> list:
-    def convert_human_age(age: int, later_step: int) -> int | None:
+    def convert_human_age(age: int, later_step: int) -> int:
         if age < 15:
             return 0
 
